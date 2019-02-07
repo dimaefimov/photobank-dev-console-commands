@@ -3,7 +3,7 @@
     "description": "Development and test console commands for photobank-backend",
     "type": "library",
     "autoload": {
-        "psr-4": { "PhotoBank\\DevConsoleCommandBundle\\": "" },
+        "psr-4": { "PhotoBank\\DevConsoleCommandBundle\\": "" }
     },
     "require": {
       "php": "^7.1.3",
