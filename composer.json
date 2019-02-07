@@ -1,0 +1,26 @@
+{
+    "name": "photobank/dev-console-commands-bundle",
+    "description": "Development and test console commands for photobank-backend",
+    "type": "library",
+    "autoload": {
+        "psr-4": { "PhotoBank\\DevConsoleCommandBundle\\": "" },
+    },
+    "require": {
+      "php": "^7.1.3",
+      "ext-ctype": "*",
+      "ext-iconv": "*",
+      "symfony/console": "*",
+    },
+    "authors": [
+        {
+            "name": "dimaefimov",
+            "email": "dmitriy.efimov@yahoo.com"
+        }
+    ],
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+        }
+    }
+}
