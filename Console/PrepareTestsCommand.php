@@ -43,7 +43,7 @@ private $fileSystem;
       *
       */
     public function __construct(ContainerInterface $container, Filesystem $fileSystem, TestService $testService){
-      $this->fileSystem = $fileSystem;
+      $this->fileSystem = $fileSystem->getUndecorated();
       $this->container = $container;
       $this->testService = $testService;
       parent::__construct();
