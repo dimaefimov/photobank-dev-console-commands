@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console;
+namespace PhotoBank\DevConsoleCommandBundle\Console;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
